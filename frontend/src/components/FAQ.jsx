@@ -27,10 +27,6 @@ const ITEMS = [
     q: "Do you offer rush delivery?",
     a: "Occasionally, depending on capacity. Rush work carries a small premium so it doesn't compromise the rest of the schedule.",
   },
-  {
-    q: "What about ownership and source files?",
-    a: "You own the final work and the project files. Source assets and a project archive are handed over on delivery.",
-  },
 ];
 
 export const FAQ = () => {
