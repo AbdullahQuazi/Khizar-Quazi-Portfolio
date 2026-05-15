@@ -3,18 +3,18 @@ import { Reveal } from "./Reveal";
 const STEPS = [
   {
     n: "01",
-    title: "Strategy",
-    body: "We start with intent. Goals, audience, tone, runtime, where it lives. The edit is shaped before the timeline opens.",
+    title: "Discover",
+    body: "We align on your vision — goals, audience, tone, and style. I study your footage, brand, and references so every edit decision has purpose from the start.",
   },
   {
     n: "02",
-    title: "Edit & Motion",
-    body: "Cuts, pacing, sound, color. Motion that earns its place. Iterative drafts with clean, focused feedback rounds.",
+    title: "Create",
+    body: "The timeline comes alive. Precision cuts, dynamic motion graphics, sound design, and color grading — all woven together through focused feedback rounds.",
   },
   {
     n: "03",
-    title: "Final Polish",
-    body: "Final color pass, audio mastering, frame-level QC. Delivery in every format your platforms ask for.",
+    title: "Deliver",
+    body: "Pixel-perfect final render. Audio mastered, colors locked, every frame inspected. Delivered in all formats your platforms need, on time.",
   },
 ];
 
@@ -30,7 +30,7 @@ export const Process = () => {
         <Reveal>
           <p className="eyebrow mb-5">03 — Process</p>
           <h2 className="display text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[0.95] max-w-[18ch]">
-            Three steps. No noise. No surprises.
+            From concept to final cut. Seamlessly.
           </h2>
         </Reveal>
 

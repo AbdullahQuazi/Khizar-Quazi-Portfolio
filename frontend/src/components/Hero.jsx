@@ -29,7 +29,7 @@ export const Hero = ({ onContact }) => {
           className="display uppercase text-[38px] sm:text-[64px] md:text-[88px] lg:text-[104px] xl:text-[112px] leading-[0.86] tracking-[-0.05em] max-w-[12ch]"
           data-testid="hero-headline"
         >
-          {"Turning raw clips into".split(" ").map((w, i) => (
+          {"Where raw footages".split(" ").map((w, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 60 }}
@@ -44,11 +44,11 @@ export const Hero = ({ onContact }) => {
           <motion.span
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.85, delay: 0.45, ease: [0.22, 0.85, 0.3, 1] }}
+            transition={{ duration: 0.85, delay: 0.35, ease: [0.22, 0.85, 0.3, 1] }}
             className="inline-block"
             style={{ color: "var(--accent)" }}
           >
-            mini masterpieces.
+            becomes art.
           </motion.span>
         </h1>
 
@@ -58,8 +58,8 @@ export const Hero = ({ onContact }) => {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="muted mt-8 md:mt-12 max-w-[52ch] text-[15px] md:text-[17px] leading-relaxed"
         >
-          Long-form video editing for creators, businesses and personal brands.
-          Quiet, considered cuts. Clean motion. Stories that hold attention.
+          Cinematic editing and motion design for creators, brands, and storytellers.
+          Every frame intentional. Every cut purposeful. Your vision, elevated.
         </motion.p>
 
         <motion.div

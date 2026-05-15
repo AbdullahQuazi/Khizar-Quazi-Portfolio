@@ -1,15 +1,15 @@
 // Centralized contact + social info — edit values here to update sitewide.
 export const SOCIALS = {
-  email: "Yousufhakim.work@gmail.com",
-  emailHref: "mailto:Yousufhakim.work@gmail.com",
-  whatsapp: "+971 56 1600 754",
-  whatsappHref: "https://wa.me/971561600754",
-  discord: "hakimyousuf",
-  discordHref: "https://discord.com/users/hakimyousuf",
-  instagram: "@yousufhk2003",
-  instagramHref: "https://www.instagram.com/yousufhk2003/",
-  x: "@HakimYousuf",
-  xHref: "https://x.com/HakimYousuf",
+  email: "khizarquazi2007@gmail.com",
+  emailHref: "mailto:khizarquazi2007@gmail.com",
+  whatsapp: "+91 8747052571",
+  whatsappHref: "https://wa.me/918747052571",
+  discord: "khizar_quazi",
+  discordHref: "https://discord.com/users/khizar_quazi",
+  instagram: "@khizar_quazi07",
+  instagramHref: "https://www.instagram.com/khizar_quazi07/",
+  x: "@Khizar_Quazi07",
+  xHref: "https://x.com/Khizar_Quazi07",
 };
 
 // type: "youtube" | "twitter"
@@ -17,32 +17,31 @@ export const SOCIALS = {
 // For twitter: id = tweet status id, user = handle (without @)
 export const PROJECTS = [
   {
-    title: "The Long Cut",
+    title: "Trading Content",
     tag: "Long-form · YouTube",
-    type: "youtube",
-    id: "-YZ2UBhwQM4",
-    href: "https://youtu.be/-YZ2UBhwQM4",
-    poster: "https://img.youtube.com/vi/-YZ2UBhwQM4/maxresdefault.jpg",
+    type: "direct",
+    href: "/Trading Content.mp4",
+    poster: "/Trading TH.jpg.jpeg",
   },
   {
-    title: "Interface in Motion",
-    tag: "Long-form · UI Animation",
+    title: "Talking Head",
+    tag: "Long-form",
     type: "direct",
-    href: "/Interface in Motion.mp4",
-    poster: "/interface.png",
+    href: "/Talking Head.mp4",
+    poster: "/adrian.jpg.jpeg",
   },
   {
     title: "Set in Motion",
     tag: "Long-form · Motion Graphics",
     type: "direct",
     href: "/Motion Graphics.mp4",
-    poster: "/motion.jpg",
+    poster: "/Motion TH.jpg.jpeg",
   },
   {
     title: "First Frames",
     tag: "Long-form · Intro",
     type: "direct",
     href: "/Intro.mp4",
-    poster: "/intro.jpg",
+    poster: "/Intro.jpeg",
   },
 ];

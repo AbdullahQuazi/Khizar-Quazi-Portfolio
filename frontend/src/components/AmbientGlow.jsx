@@ -52,7 +52,7 @@ export const AmbientGlow = () => {
           pointerEvents: "none",
           zIndex: 0,
           background:
-            "radial-gradient(ellipse at 50% 20%, rgba(159, 232, 112, 0.12), transparent 60%)",
+            "radial-gradient(ellipse at 50% 20%, rgba(0, 156, 222, 0.12), transparent 60%)",
         }}
       />
     );
@@ -83,7 +83,7 @@ export const AmbientGlow = () => {
           scale: scaleA,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(159, 232, 112, 0.22) 0%, rgba(159, 232, 112, 0.10) 30%, transparent 65%)",
+            "radial-gradient(circle, rgba(0, 156, 222, 0.22) 0%, rgba(0, 156, 222, 0.10) 30%, transparent 65%)",
           filter: "blur(60px)",
           willChange: "transform",
         }}
@@ -101,7 +101,7 @@ export const AmbientGlow = () => {
           y: offsetY,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(22, 51, 0, 0.55) 0%, rgba(22, 51, 0, 0.18) 35%, transparent 70%)",
+            "radial-gradient(circle, rgba(0, 48, 135, 0.55) 0%, rgba(0, 48, 135, 0.18) 35%, transparent 70%)",
           filter: "blur(80px)",
           willChange: "transform",
         }}

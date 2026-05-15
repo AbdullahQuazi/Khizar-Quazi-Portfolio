@@ -12,25 +12,25 @@ export const About = () => {
           <Reveal className="md:col-span-4">
             <p className="eyebrow mb-6">01 — About</p>
             <h2 className="display text-3xl md:text-4xl lg:text-5xl tracking-tight leading-[1.0]">
-              A quiet craft, sharpened over thousands of timeline hours.
+              The art of editing, shaped over countless unseen hours.
             </h2>
           </Reveal>
 
           <div className="md:col-span-7 md:col-start-6 space-y-8 text-[17px] md:text-[18px] leading-[1.7]">
             <Reveal delay={0.1}>
               <p>
-                I'm Yousuf — a freelance video editor and motion designer working
-                primarily in long-form. My focus is the unglamorous part of the
-                craft: pacing, breathing room, sound design, the cut you don't
-                notice because it just feels right.
+                I'm Khizar — a freelance video editor and motion designer who
+                lives for the details. I specialize in long-form content,
+                turning hours of raw footage into polished narratives that
+                keep audiences locked in from first frame to last.
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="muted">
-                I work in Adobe Premiere Pro and After Effects. Every frame is
-                intentional. Every transition earns its place. The goal isn't to
-                impress — it's to hold the viewer until the last second feels
-                inevitable.
+                I work in Adobe Premiere Pro and After Effects. Every cut is
+                deliberate. Every motion graphic serves the story. I don't
+                just edit — I craft visual experiences that make your message
+                land exactly the way it should.
               </p>
             </Reveal>
             <Reveal delay={0.3}>

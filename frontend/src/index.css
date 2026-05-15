@@ -5,23 +5,23 @@
 @tailwind utilities;
 
 :root {
-    --bg: #070707;
-    --surface: #121212;
+    --bg: #070b14;
+    --surface: #0d1524;
     --text-primary: #ffffff;
-    --text-secondary: #a0a0a0;
-    --accent: #9fe870;
-    --accent-on: #163300;
+    --text-secondary: #8a9bb5;
+    --accent: #009CDE;
+    --accent-on: #ffffff;
     --border: rgba(255, 255, 255, 0.1);
     --border-strong: rgba(255, 255, 255, 0.18);
 }
 
 html.light {
-    --bg: #f8f9fa;
+    --bg: #f5f7fa;
     --surface: #ffffff;
     --text-primary: #0a0a0a;
     --text-secondary: #555555;
-    --accent: #163300;
-    --accent-on: #9fe870;
+    --accent: #003087;
+    --accent-on: #ffffff;
     --border: rgba(0, 0, 0, 0.1);
     --border-strong: rgba(0, 0, 0, 0.18);
 }
@@ -114,14 +114,14 @@ html.lenis body {
     pointer-events: none;
     background: radial-gradient(
         ellipse at 50% 0%,
-        rgba(159, 232, 112, 0.08),
+        rgba(0, 156, 222, 0.1),
         transparent 60%
     );
 }
 html.light .hero-glow {
     background: radial-gradient(
         ellipse at 50% 0%,
-        rgba(159, 232, 112, 0.35),
+        rgba(0, 48, 135, 0.2),
         transparent 55%
     );
 }
@@ -149,10 +149,10 @@ html.light .hero-glow {
     cursor: pointer;
 }
 .btn-magnetic:hover {
-    box-shadow: 0 8px 28px -8px rgba(159, 232, 112, 0.25);
+    box-shadow: 0 8px 28px -8px rgba(0, 156, 222, 0.35);
 }
 html.light .btn-magnetic:hover {
-    box-shadow: 0 8px 28px -8px rgba(22, 51, 0, 0.25);
+    box-shadow: 0 8px 28px -8px rgba(0, 48, 135, 0.3);
 }
 
 .btn-ghost {
@@ -268,10 +268,10 @@ select {
         mix-blend-mode: normal;
     }
     html.light .yh-cursor-dot {
-        background: #163300;
+        background: #003087;
     }
     html.light .yh-cursor-ring {
-        border-color: #163300;
+        border-color: #003087;
     }
 }
 
